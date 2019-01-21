@@ -1,8 +1,10 @@
-### Плагин для валидации причины заскипа
+### Skip reason validatin plugin
 
-Плагин проверяет, что причина заскипа теста матчится на указанные паттерны.
+The plugin verifies that the test's skip reason matches on the specified patterns.
 
-'@yandex-int/skip-reason-validator': {
+```
+skip-reason-validator': {
     enabled: true,
     pattern: '[A-Z]+-\\d+'
 }
+````
