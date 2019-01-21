@@ -1,0 +1,37 @@
+{
+  "name": "skip-reason-validator",
+  "version": "0.0.1",
+  "description": "Plugin for validation skip reason of the tests",
+  "scripts": {
+    "test": "npm run lint && npm run unit",
+    "unit": "mocha",
+    "lint": "eslint ."
+  },
+  "main": "lib/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com:gemini-testing/skip-reason-validator.git"
+  },
+  "bugs": "https://github.com/gemini-testing/skip-reason-validator/issues",
+  "author": "Yulia Martynova",
+  "license": "MIT",
+  "keywords": [
+    "skips",
+    "hermione",
+    "plugin"
+  ],
+  "dependencies": {
+    "lodash": "^4.17.10",
+    "chalk": "2.4.1"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "eslint": "^4.10.0",
+    "eslint-config-gemini-testing": "^2.6.0",
+    "mocha": "^4.0.1",
+    "proxyquire": "^2.1.0",
+    "sinon": "^4.1.2",
+    "sinon-chai": "^2.14.0",
+    "chai-as-promised": "^7.1.1"
+  }
+}
